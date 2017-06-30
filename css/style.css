@@ -17,3 +17,6 @@ ul{
     list-style: none;
     display: inline-flex;
 }
+.img-footer {
+	display: inline-flex;
+}
