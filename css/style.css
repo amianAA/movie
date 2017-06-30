@@ -25,3 +25,9 @@ ul{
     height: 240px;
     margin: 5px;
 }
+
+.poster {
+    width: 300px;
+    height: auto;
+}
+
