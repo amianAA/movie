@@ -1,0 +1,19 @@
+header{
+    background-color: blue;
+    text-align: center;
+}
+
+#hd-img{
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex;
+}
