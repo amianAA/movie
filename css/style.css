@@ -15,6 +15,15 @@ main{
 ul{
     list-style: none;
     display: inline-flex;
+    vertical-align: middle;
+    margin: 10px 0;
+}
+
+.top-nav{
+    border-top: 2px solid cornflowerblue;
+    border-bottom: 2px solid cornflowerblue;
+    border-color: cornflowerblue;
+
 }
 .img-footer {
 	display: inline-flex;
@@ -24,6 +33,7 @@ ul{
     width: 180px;
     height: 240px;
     margin: 5px;
+    border-radius: 5px;
 }
 
 .poster {
@@ -32,14 +42,67 @@ ul{
 }
 
 .element{
-    margin: 5px 0;
+    height: 40px;
+    margin: 0;
     padding: 5px;
     font-size: 1.5em;
+    display: inline;
 }
 
 .element:hover{
-    color: white;
-    background-color:cadetblue;
+    background-color:cornflowerblue;
     text-decoration: none;
 }
 
+i{
+    margin: 3px;
+}
+
+header{
+    background-color: white;
+}
+
+iframe{
+    margin: 5px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #2A2D2F;
+    color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+h1{
+    color:cornflowerblue;
+    margin: 5px;
+}
+
+.top-nav>li>a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.ftl{
+    color: white;
+    text-decoration: none;
+}
+.ftl:hover{
+    color:darkgrey;
+    text-decoration: none;
+}
+
+.top-nav>li>a{
+    color: cornflowerblue;
+}
+
+.footer-img{
+    height: 60px;
+    width: auto;
+    margin: 8px 0;
+}
+
+li{
+    margin: 0 3px;
+}
